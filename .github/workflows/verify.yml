@@ -9,11 +9,6 @@ jobs:
     name: Run this Action
     runs-on: ubuntu-latest
     steps:
-      - name: "Clone test project"
-        uses: actions/checkout@v4
-        with:
-          repository: phorus-group/mapper
-
       - name: "Clone action"
         uses: actions/checkout@v4
         with:
